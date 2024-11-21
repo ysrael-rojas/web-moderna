@@ -2,10 +2,10 @@
 
 ## AUTOR
 
-- ***YSRAEL ROJAS ROJAS***
-- ***CODE 201***
-- ***<yrra.rojas@gmail.com>***
-- ***19/11/2024***
+- ***Nombre completo: YSRAEL ROJAS ROJAS***
+- ***Nombre del curso: CODE 201***
+- ***Email: <yrra.rojas@gmail.com>***
+- ***Fecha creacion proyecto: 19/11/2024***
 
 ## SOBRE EL PROYECTO
 
@@ -13,7 +13,7 @@ La web moderna es interactiva, dinámica y centrada en el usuario. Se basa en te
 
 ## ESLINTRC
 
-### Configuracion General.
+### Configuracion General
 
 ```json
 "env": {
@@ -73,13 +73,20 @@ La web moderna es interactiva, dinámica y centrada en el usuario. Se basa en te
 
 - ***linebreak-style: ["error", "unix"]***: Exige que las líneas terminen con saltos de línea tipo UNIX (\n).
 
-    ***"unix"***: Especifica este formato (en lugar de windows que usa \r\n).
-quotes: ["error", "single"]: Requiere el uso de comillas simples (') para cadenas de texto.
+***"unix"***: Especifica este formato (en lugar de windows que usa \r\n).
+
+- ***quotes: ["error", "single"]***: Requiere el uso de comillas simples (') para cadenas de texto.
 
 ***"error"***: Lanzará un error si se usan comillas dobles sin justificación.
-***semi: ["error", "always"]***: Obliga el uso de punto y coma (;) al final de cada sentencia.
+
+- ***semi: ["error", "always"]***: Obliga el uso de punto y coma (;) al final de cada sentencia.
 
 ***"always"***: Indica que siempre se debe usar el punto y coma.
-***no-unused-vars: "warn"***: Lanza una advertencia si hay variables declaradas pero no utilizadas.
 
-no-console: "warn": Lanza una advertencia si se usa console (ej. console.log), ya que suele evitarse en código de producción.
+- ***no-unused-vars: "warn"***: Lanza una advertencia si hay variables declaradas pero no utilizadas.
+
+- ***no-console: "warn"***: Lanza una advertencia si se usa console (ej. console.log), ya que suele evitarse en código de producción.
+
+## DESPLIEGUE
+
+🏠 [***GitHub Pages***](https://ysrael-rojas.github.io/web-moderna/)
