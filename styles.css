@@ -11,31 +11,30 @@ body {
 
  /* Estilo del navbar */
  nav {
-    background-color: #4CAF50; /* Verde atractivo */
-    height: 10vh; /* 10% de la altura de la pantalla */
+    background-color: #4CAF50; 
+    height: 10vh; 
     line-height: 10vh; /* Centra los elementos verticalmente */
     padding: 0 20px;
   }
 
   nav a {
     display: inline-block; /* Coloca los enlaces uno al lado del otro */
-    text-decoration: none; /* Elimina el subrayado */
-    color: white; /* Texto blanco */
+    text-decoration: none;
+    color: white;
     margin-right: 20px; /* Espaciado entre enlaces */
     font-weight: bold;
-    transition: color 0.3s ease; /* Efecto suave al pasar el cursor */
+    transition: color 0.3s ease; 
   }
   nav a:hover {
-    color: #d4edda; /* Color más claro al pasar el cursor */
+    color: #d4edda;
   }
 
-  /* Estilo del encabezado principal */
   main {
-    text-align: center; /* Centra horizontalmente el contenido */
+    text-align: center;
     margin-top: 15vh; /* Da espacio debajo del navbar */
   }
 
   main h1 {
-    font-size: 2.5rem; /* Tamaño grande y llamativo */
-    color: #2c3e50; /* Azul oscuro elegante */
+    font-size: 2.5rem; 
+    color: #2c3e50;
   }
