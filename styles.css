@@ -10,7 +10,7 @@ body {
 }
 
  nav {
-    background-color: #4CAF50; 
+    background: linear-gradient(to right, #28f796, #0000FF);; 
     height: 10vh; 
     display: flex;
     align-items: center;
@@ -44,19 +44,34 @@ body {
     font-size: 2.5rem; 
     color: #2c3e50;
   }
+
+  .group-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: scroll;
+  }
+
   .section-tecnology {
-    background-color: #bbdefb;
+    background-color: rgb(255, 255, 255);
+    max-width: 450px;
     border-radius: 10px;
     margin: 10px 0;
-    padding: 10px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
   }
 
   .button-section{
-    display: inline-block;
-    background-color: #007BFF;
+    /* display: inline-block; */
+    background-color: #0000FF;
     color: rgb(248, 233, 233);
     text-decoration: none;
     border-radius: 5px;
@@ -68,7 +83,7 @@ body {
   }
 
   .button-section:hover {
-    background-color: #064486;
+    background-color: #222270;
     color: rgb(255, 255, 255);
     font-weight: bold;
   }
@@ -77,11 +92,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .logo {
-    width: 150px;
-    height: 150px; 
   }
 
   @media (max-width: 600px) {
